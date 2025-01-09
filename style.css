@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/image/netflix-background.jpeg");
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-size: 100vw;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 6;
+}
+
+nav button {
+    position: relative;
+    z-index: 6;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding: 0 23px;
+    gap: 23px;
+}
+
+.hero > :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+    .hero > :first-child(2){
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero > :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    height: 6px;
+    background-color: rgb(58, 58, 58);
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.main input {
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+/* Styling for text and image containers */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.text {
+    flex: 1;
+    font-size: 24px;
+    color: white;
+    line-height: 1.5;
+    max-width: 60%;
+}
+
+.secimg img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+.first.second {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center; /* Center content vertically */
+    height: 70vh; /* Make sure the section takes up the full viewport height (optional) */
+}
+
+.secImg {
+    flex: 1; /* Make the image section take available space */
+}
+
+.text {
+    text-align: justify; /* Align text to the right */
+    padding: 20px; /* Optional: Adds space around the text */
+}
+.first.third {
+    display: flex;
+    justify-content: space-between; /* Ensure content is spread out */
+    align-items: center; /* Center content vertically */
+    height: 70vh; /* Optional: Make section take full viewport height */
+}
+
+.secimg2 {
+    flex: 1; /* Allow the image to take up available space */
+    display: flex;
+    justify-content: flex-end; /* Align the image to the right */
+}
+
+.text {
+    flex: 1; /* Allow the text to take available space */
+    text-align: left; /* Align text to the left */
+    padding: 20px; /* Optional: Adds space around the text */
+}
